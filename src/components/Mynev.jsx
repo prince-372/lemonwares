@@ -6,9 +6,9 @@ const Mynav = () => {
   function setopen() {
       setfirst(!first);
       if (first === false) {
-          document.body.classList.add("overflow-hidden");
+          document.body.classList.add("overflowhidden");
       } else {
-          document.body.classList.remove("overflow-hidden");
+          document.body.classList.remove("overflowhidden");
       }
   }
   return (
@@ -27,7 +27,7 @@ const Mynav = () => {
                       </div>
                       <div
                           className={`${first ? "right-0" : "right-[-100%]"
-                              } flex  gap-[33px] sm:gap-0   max-[1023px]:w-full h-full fixed bg-slate-500 bg-[#0000] top-0 items-center justify-center lg:h-unset lg:static  lg:bg-transparent lg:justify-end flex-col lg:flex-row z-40 transition-all ease-linear duration-300 `}
+                              } flex  gap-[33px] sm:gap-0   max-[1023px]:w-full h-full fixed bg-white bg-[#0000] top-0 items-center justify-center lg:h-unset lg:static  lg:bg-transparent lg:justify-end flex-col lg:flex-row z-40 transition-all ease-linear duration-300 `}
                       >
                           <ul className="flex items-center gap-[33px] flex-col lg:flex-row">
                               <li>
