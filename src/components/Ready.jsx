@@ -48,7 +48,7 @@ const Ready = () => {
         >
           <span
             className={`flex w-[30px] h-[30px] bg-white rounded-full absolute  duration-300 ${
-              open ? "left-[54px]" : "left-2"
+              open ? "left-[54px] bg-slate-800" : "left-2"
             }`}
           ></span>
         </span>
