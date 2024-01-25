@@ -30,7 +30,7 @@ const Story = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col gap-8 items-center'>
+                <div className='flex flex-col gap-0 sm:gap-8 items-center'>
                     <div className='bg-white shadow-[0_10px_20px_0_rgba(41,41,42,0.07)] rounded-lg max-w-[445px] w-full mt-6'>
                         <div className='pt-10 px-8 flex gap-4'>
                             <span className='mt-20'><Smallquetemark/></span>

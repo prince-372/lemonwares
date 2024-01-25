@@ -8,7 +8,7 @@ const Hero = () => {
   function tabs(tab) {
       setdata(tab);}  
   return (
-    <div id='about' className=' max-w-[1200px] px-3 mx-auto pt-5 sm:pt-20 overflow-x-clip'>
+    <div id='about' className=' max-w-[1200px] px-3 mx-auto pt-6 sm:pt-20 overflow-x-clip'>
         <div className=' grid lg:grid-cols-2 gap-6 sm:gap-20 flex-col items-center lg:items-start justify-center lg:justify-start'>
             <div data-aos="fade-right" className=' flex flex-col justify-center items-center lg:items-start'>
               <div className='flex gap-4 relative after:absolute after:w-full after:left-0 after:h-[1px] max-w-[242px] after:bottom-[-2px] after:bg-[#C4C4C4] '>

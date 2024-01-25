@@ -17,9 +17,9 @@ const Websites = () => {
         <div className="flex justify-center pt-10 pb-5 md:pb-10 lg:pb-[88px] font-[Poppins] leading-6 text-sm font-normal">
           <a
             href="whatsapp://send?phone=+9193473848"
-            className="py-3 px-4 text-white bg-[#B00000] flex rounded-lg relative font-semibold font-sans after:-z-20 after:absolute after:h-1 after:w-1 hover:bg-transparent hover:text-black border group border-transparent hover:border-black after:bg-transparent after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700"
+            className="py-3 px-4 text-white bg-[#B00000] flex rounded-lg relative z-10 font-semibold font-sans after:-z-20 after:absolute after:h-1 after:w-1 hover:bg-transparent hover:text-black border group border-transparent hover:border-black after:bg-transparent after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700"
           >
-            <span className=" mr-2">
+            <span className=" mr-2 ">
               <Whatsapp />
             </span>{" "}
             Get in touch with us

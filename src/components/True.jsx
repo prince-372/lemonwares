@@ -50,7 +50,7 @@ const True = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="flip-left" className="grid sm:grid-cols-2 xl:grid-cols-4 mt-5 sm:mt-10 md:mt-20 lg:mt-[100px] xl:mt-[126px] sm:ml-11 sm:mr-12 gap-8 sm:gap-10 xl:gap-5">
+                <div data-aos="flip-left" className="grid sm:grid-cols-2 xl:grid-cols-4 mt-8 sm:mt-10 md:mt-20 lg:mt-[100px] xl:mt-[126px] sm:ml-11 sm:mr-12 gap-8 sm:gap-10 xl:gap-5">
                     {
                         Items.map((items, index) => (
                             <div key={index} className='flex w-full justify-center'>
