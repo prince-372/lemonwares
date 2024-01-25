@@ -44,11 +44,11 @@ const Ready = () => {
         </p>
         <span
           onClick={handle}
-          className="flex w-[93px] h-[50px] rounded-full bg-[#B00000] sm:ml-8 sm:mr-7 relative  items-center cursor-pointer"
+          className={`flex w-[93px] h-[50px] rounded-full bg-[#B00000] sm:ml-8 sm:mr-7 relative  items-center cursor-pointer ${ open ? " bg-black" : ""}`}
         >
           <span
             className={`flex w-[30px] h-[30px] bg-white rounded-full absolute  duration-300 ${
-              open ? "left-[54px] bg-slate-950" : "left-2"
+              open ? "left-[54px]" : "left-2"
             }`}
           ></span>
         </span>
