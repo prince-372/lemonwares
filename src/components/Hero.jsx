@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import main from '../assets/image/main-img.webp'
+import { Imgelement, Imgelement2, Imgelement3 } from './Icons';
 
 const Hero = () => {
   // tabs
@@ -7,9 +8,9 @@ const Hero = () => {
   function tabs(tab) {
       setdata(tab);}  
   return (
-    <div className=' max-w-[1200px] px-3 mx-auto pt-5 sm:pt-20'>
+    <div id='about' className=' max-w-[1200px] px-3 mx-auto pt-5 sm:pt-20 overflow-x-clip'>
         <div className=' grid lg:grid-cols-2 gap-6 sm:gap-20 flex-col justify-center items-center'>
-            <div className=' '>
+            <div data-aos="fade-right" className=' '>
               <div className='flex gap-4 relative'>
                 <span className=' border-bottom-1'></span>
                 <p onClick={() => tabs('tab1')} className={`${data === "tab1" && " !text-[#b00000] relative before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-10%] before:ease-linear before:w-[77%] before:left-[6px]"} text-[15px] font-semibold font-[Poppins] text-[#dbd9d9] tracking-normal cursor-pointer`}>Hosting</p>
@@ -50,8 +51,11 @@ const Hero = () => {
                 </div>
                 </div>}
             </div>
-            <div>
+            <div className=' relative' data-aos="fade-left">
               <img src={main} alt="main" />
+            <div className=' absolute bottom-[10%] right-[5%]'><Imgelement/></div>
+            <div className=' absolute top-[13%] right-[5%]'><Imgelement2/></div>
+            <div className=' absolute bottom-[35%] left-[-4%]'><Imgelement3/></div>
             </div>
         </div>
 

@@ -32,14 +32,14 @@ const True = () => {
     ]
 
     return (
-        <div>
+        <div className=' overflow-x-clip'>
             <div className='max-w-[1300px] px-3 mx-auto pb-8 sm:pb-[133px] pt-6 sm:pt-[79px]'>
                 <div className=' grid md:grid-cols-2 -mx-3 flex-wrap'>
-                    <div className=' px-3'>
+                    <div data-aos="fade-right" className=' px-3'>
                         <h2 className="max-w-[594px] text-zinc-900 text-[26px] sm:text-[48px] font-extrabold font-[Inter] leading-[34px] sm:leading-[64px]">True Cloud Web  Hosting</h2>
                         <p className="max-w-[573px] text-zinc-900 text-[18px] font-normal font-[Inter] leading-[32px]"><br />True Cloud Web Hosting All of the hosting packages we offer are deployed instantly on our SSD powered cloud. We don’t use dedicated servers that operate on single pieces of hardware. Our entire infrastructure is built to be reliable, secure, and scalable.<br /><br /></p>
                     </div>
-                    <div className=' px-3 pt-[25px]'>
+                    <div data-aos="fade-left" className=' px-3 pt-[25px]'>
                         <div className='grid grid-cols-2 xl:grid-cols-3 items-center justify-center gap-11'>
                             <div className='flex justify-center lg:justify-end'><img src={img1} alt="img" /></div>
                             <div className='flex justify-center lg:justify-end'><img src={img2} alt="img" /></div>
@@ -50,7 +50,7 @@ const True = () => {
                         </div>
                     </div>
                 </div>
-                <div className="grid sm:grid-cols-2 xl:grid-cols-4 mt-5 sm:mt-10 md:mt-20 lg:mt-[100px] xl:mt-[126px] sm:ml-11 sm:mr-12 gap-8 sm:gap-10 xl:gap-5">
+                <div data-aos="flip-left" className="grid sm:grid-cols-2 xl:grid-cols-4 mt-5 sm:mt-10 md:mt-20 lg:mt-[100px] xl:mt-[126px] sm:ml-11 sm:mr-12 gap-8 sm:gap-10 xl:gap-5">
                     {
                         Items.map((items, index) => (
                             <div key={index} className='flex w-full justify-center'>

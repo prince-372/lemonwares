@@ -10,8 +10,8 @@ import iconimg3 from '../assets/image/LeeveOn-img.webp' ;
 import { Quetemark, Smallquetemark } from './Icons';
 const Story = () => {
     return (
-        <div className='mx-auto px-3 max-w-[1220px] py-[50px] sm:py-[106px]'>
-            <div className='grid lg:grid-cols-2 grid-cols-1 my-20 gap-[30px]'>
+        <div className='mx-auto px-3 max-w-[1220px] py-[50px] sm:py-[106px] overflow-hidden'>
+            <div data-aos="flip-left" className='grid lg:grid-cols-2 grid-cols-1 my-20 gap-[30px]'>
                 <div className='flex flex-col lg:items-end items-center'>
                     <div className='relative'>
                         <h2 className='text-[#18191F] text-[30px] sm:text-5xl font-extrabold leading-[35px] sm:leading-[64px] font-[Inter] max-w-[445px]'>Real Stories from Real Customers</h2>
@@ -56,12 +56,12 @@ const Story = () => {
                 </div>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
-                <div className='flex flex-col'>
+                <div data-aos="fade-right" className='flex flex-col'>
                     <h2 className='text-[#18191F] text-[35px] sm:text-5xl font-extrabold leading-[38px] sm:leading-[64px] font-[Inter]'>We serve over 100
                         Nigerian Websites</h2>
                     <p className='text-[#18191F] text-lg font-[Inter] font-normal leading-[32px] max-w-[573px] mt-3'>Connect LemonWares with your favourite tools that you use daily and keep things on track.</p>
                 </div>
-                <div className='grid grid-cols-2 xl:grid-cols-3 items-center justify-center'>
+                <div data-aos="fade-left" className='grid grid-cols-2 xl:grid-cols-3 items-center justify-center'>
                     <div className='flex justify-center lg:justify-end'>
                         <img src={Image1} alt='Images ' />
                     </div>
