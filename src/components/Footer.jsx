@@ -13,34 +13,34 @@ const Footer = () => {
                     <div className='col-span-1 lg:col-span-2 mt-4'>
                         <ul className='flex flex-col gap-6'>
                             <li className='text-white font-[Inter] font-bold text-base'>Service</li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>Domain</a></li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>Shared Hosting</a></li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>Cloud Hosting</a></li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>Private Hosting</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>Domain</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>Shared Hosting</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>Cloud Hosting</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>Private Hosting</a></li>
                         </ul>
                     </div>
                     <div className='col-span-1 lg:col-span-2 mt-4'>
                         <ul className='flex flex-col gap-6'>
                             <li className='text-white font-[Inter] font-bold text-base'>Hosting</li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>Cheap Hosting</a></li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>Hosting Wordpress</a></li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>Email Hosting</a></li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>Hosting Unlimited</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>Cheap Hosting</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>Hosting Wordpress</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>Email Hosting</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>Hosting Unlimited</a></li>
                         </ul>
                     </div>
                     <div className='col-span-1 lg:col-span-2 mt-4'>
                         <ul className='flex flex-col gap-6'>
                             <li className='text-white font-[Inter] font-bold text-base'>Company</li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>About</a></li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>Career</a></li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>Contact Us</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>About</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>Career</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>Contact Us</a></li>
                         </ul>
                     </div>
                     <div className='col-span-1 lg:col-span-2 mt-4'>
                         <ul className='flex flex-col gap-6'>
                             <li className='text-white font-[Inter] font-bold text-base'>Help</li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>FAQ</a></li>
-                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base'>Help support</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>FAQ</a></li>
+                            <li><a href="#" className='text-[#E6E6E6] leading-8 font-[Inter] font-normal text-base relative after:absolute  after:bg-[#E6E6E6] after:w-0 hover:after:w-full after:h-[2px]  after:duration-700 after:top-6 after:left-0'>Help support</a></li>
                         </ul>
                     </div>
                 </div>
