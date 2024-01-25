@@ -11,7 +11,7 @@ import { Quetemark, Smallquetemark } from './Icons';
 const Story = () => {
     return (
         <div id='blog&News' className='mx-auto px-3 max-w-[1220px] py-[50px] sm:py-[106px] overflow-hidden'>
-            <div data-aos="flip-left" className='grid lg:grid-cols-2 grid-cols-1 my-20 gap-[30px]'>
+            <div data-aos="flip-left" className='grid lg:grid-cols-2 grid-cols-1 my-20 '>
                 <div className='flex flex-col lg:items-end items-center'>
                     <div className='relative flex flex-col justify-center items-center'>
                         <h2 className='text-[#18191F] text-[30px] sm:text-5xl font-extrabold leading-[35px] sm:leading-[64px] font-[Inter] max-w-[445px]'>Real Stories from Real Customers</h2>
@@ -22,7 +22,7 @@ const Story = () => {
                         <div className='py-2 px-8 flex gap-4'>
                             <span className='mt-20'><Smallquetemark/></span>
                             <div className='flex flex-col'>
-                                <div><img src={iconimg} alt='Icon' /></div>
+                                <div><img src={iconimg2} alt='Icon' /></div>
                                 <p className=' font-[Inter] font-normal text-black text-base leading-[32px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem</p>
                                 <p className=' font-[Inter] font-bold text-[#18191F] text-lg leading-7 mt-6'>Floyd Miles</p>
                                 <p className=' font-[Inter] font-medium text-[#969BAB] text-sm leading-6 mb-20'>Vice President, CLI</p>
@@ -35,7 +35,7 @@ const Story = () => {
                         <div className='pt-10 px-8 flex gap-4'>
                             <span className='mt-20'><Smallquetemark/></span>
                             <div className='flex flex-col'>
-                                <div><img src={iconimg2} alt='Icon' /></div>
+                                <div><img src={iconimg} alt='Icon' /></div>
                                 <p className=' font-[Inter] font-normal text-black text-base leading-[32px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem</p>
                                 <p className=' font-[Inter] font-bold text-[#18191F] text-lg leading-7 mt-6'>Jane Cooper</p>
                                 <p className=' font-[Inter] font-medium text-[#969BAB] text-sm leading-6 mb-2'>CEO, JPNL</p>

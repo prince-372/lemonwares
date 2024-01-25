@@ -59,7 +59,7 @@ const Ready = () => {
           20% discount
         </p>
       </div>
-      <div data-aos="fade-left" className="  flex justify-center  relative pt-4 sm:pt-20 max-w-[856px] mx-auto w-full cursor-pointer after:absolute after:w-full after:left-0 after:h-[4px] after:bottom-[-6px] after:bg-[#C4C4C4] ">
+      <div data-aos="fade-left" className="  flex justify-center  relative pt-4 sm:pt-18 max-w-[856px] mx-auto w-full cursor-pointer after:absolute after:w-full after:left-0 after:h-[4px] after:bottom-[-6px] after:bg-[#C4C4C4] ">
         <div
           className={`${
             data === "tab1" &&
@@ -88,7 +88,7 @@ const Ready = () => {
         </div>
       </div>
       {data === "tab1" && (
-        <div data-aos="flip-left" className="grid sm:grid-cols-2 xl:grid-cols-3 mt-5 sm:mt-10 md:mt-20 lg:mt-[100px] xl:mt-[126px] sm:ml-11 sm:mr-12 gap-8 sm:gap-10 xl:gap-5">
+        <div data-aos="flip-left" className="grid sm:grid-cols-2 xl:grid-cols-3 mt-5 sm:mt-10 md:mt-18 lg:mt-[100px] xl:mt-[100px] sm:ml-11 sm:mr-12 gap-8 sm:gap-10 xl:gap-5">
           {box.map((boxitem, index) => (
             <div key={index} className="flex w-full justify-center">
               <div className=" max-w-[299px] max-h-[716px] rounded-2xl border-[1.5px] border-[#C4C4C4] shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)] py-8 px-6">
@@ -138,7 +138,7 @@ const Ready = () => {
                     <Correct />
                     Free SSL
                   </span>
-                  <span className=" flex pt-3 gap-6">
+                  <span className=" flex pt-3 gap-6 pb-2">
                     <Correct />
                     Softaculous
                   </span>
