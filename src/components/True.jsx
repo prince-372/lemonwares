@@ -36,8 +36,8 @@ const True = () => {
             <div className='max-w-[1300px] px-3 mx-auto pb-8 sm:pb-[133px] pt-6 sm:pt-[79px]'>
                 <div className=' grid md:grid-cols-2 -mx-3 flex-wrap'>
                     <div data-aos="fade-right" className=' px-3'>
-                        <h2 className="max-w-[594px] text-zinc-900 text-[26px] sm:text-[48px] font-extrabold font-[Inter] leading-[34px] sm:leading-[64px]">True Cloud Web  Hosting</h2>
-                        <p className="max-w-[573px] text-zinc-900 text-[18px] font-normal font-[Inter] leading-[32px]"><br />True Cloud Web Hosting All of the hosting packages we offer are deployed instantly on our SSD powered cloud. We don’t use dedicated servers that operate on single pieces of hardware. Our entire infrastructure is built to be reliable, secure, and scalable.<br /><br /></p>
+                        <h2 className="max-w-[594px] text-zinc-900 text-[26px] sm:text-[48px] font-extrabold font-[Inter] leading-[34px] sm:leading-[64px] text-center md:text-start">True Cloud Web  Hosting</h2>
+                        <p className="max-w-[573px] text-zinc-900 text-[18px] font-normal font-[Inter] leading-[32px] text-center md:text-start"><br />True Cloud Web Hosting All of the hosting packages we offer are deployed instantly on our SSD powered cloud. We don’t use dedicated servers that operate on single pieces of hardware. Our entire infrastructure is built to be reliable, secure, and scalable.<br /><br /></p>
                     </div>
                     <div data-aos="fade-left" className=' px-3 pt-[25px]'>
                         <div className='grid grid-cols-2 xl:grid-cols-3 items-center justify-center gap-11'>
