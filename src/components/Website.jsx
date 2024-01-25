@@ -3,7 +3,7 @@ import { Element, Smallelement, Verysmallelement, Whatsapp } from './Icons'
 
 const Websites = () => {
   return (
-    <div  className='max-w-[1220px] mx-auto px-3 bg-[#F7FAFE] rounded-2xl mb-10 sm:mb-[110px] relative overflow-hidden'>
+    <div id='contact'  className='max-w-[1220px] mx-auto px-3 bg-[#F7FAFE] rounded-2xl mb-10 sm:mb-[110px] relative overflow-x-clip'>
       <div data-aos="flip-left" className='   px-5 sm:px-12 lg:pl-[118px] lg:pr-[90px]'>
         <h2 className=' text-2xl sm:text-3xl md:text-5xl lg:text-[64px] leading-6 md:leading-[44px] lg:leading-[88px] font-[Poppins] pt-5 sm:pt-10 md:pt-14 lg:pt-20 font-semibold text-center mx-auto max-w-[1024px]'>We're here to make your website awesome.</h2>
         <div className="flex justify-center pt-10 pb-5 md:pb-10 lg:pb-[88px] font-[Poppins] leading-6 text-sm font-normal">

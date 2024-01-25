@@ -1,5 +1,5 @@
 import React from 'react'
-import Backbtn  from '../assets/image/arrow.png';
+import Backbtn  from '../assets/image/arrow.webp';
 
 
 

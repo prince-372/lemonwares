@@ -31,7 +31,7 @@ const Ready = () => {
     },
   ];
   return (
-    <div className=" max-w-[1200px] px-3 mx-auto overflow-hidden">
+    <div id="account" className=" max-w-[1200px] px-3 mx-auto overflow-hidden">
       <h2 data-aos="fade-right" className=" text-[30px] sm:text-[50px] font-semibold leading-[42px] sm:leading-[60px] text-center text-black max-w-[650px] mx-auto font-[Poppins]">
         Ready to get started with Lemon Wares?
       </h2>
@@ -59,12 +59,11 @@ const Ready = () => {
           20% discount
         </p>
       </div>
-      <div data-aos="fade-left" className=" flex justify-center  relative pt-4 sm:pt-20 max-w-[856px] mx-auto w-full cursor-pointer">
-        <span className=" border-bottom-2"></span>
+      <div data-aos="fade-left" className="  flex justify-center  relative pt-4 sm:pt-20 max-w-[856px] mx-auto w-full cursor-pointer after:absolute after:w-full after:left-0 after:h-[4px] after:bottom-[-6px] after:bg-[#C4C4C4] ">
         <div
           className={`${
             data === "tab1" &&
-            "  relative before:h-[4px] cursor-pointer before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-10%] before:w-full before:left-0"
+            "  relative before:h-[4px] z-10 cursor-pointer before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-16%] before:w-full before:left-0"
           } flex w-1/2 justify-center`}
         >
           <p
@@ -77,7 +76,7 @@ const Ready = () => {
         <div
           className={`${
             data === "tab2" &&
-            "  relative before:h-[4px] cursor-pointer before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-10%] before:w-full before:left-0"
+            "  relative before:h-[4px] z-10 cursor-pointer before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-16%] before:w-full before:left-0"
           } flex w-1/2 justify-center`}
         >
           <p

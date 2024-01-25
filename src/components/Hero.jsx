@@ -10,13 +10,12 @@ const Hero = () => {
   return (
     <div id='about' className=' max-w-[1200px] px-3 mx-auto pt-5 sm:pt-20 overflow-x-clip'>
         <div className=' grid lg:grid-cols-2 gap-6 sm:gap-20 flex-col justify-center items-center'>
-            <div data-aos="fade-right" className=' '>
-              <div className='flex gap-4 relative'>
-                <span className=' border-bottom-1'></span>
-                <p onClick={() => tabs('tab1')} className={`${data === "tab1" && " !text-[#b00000] relative before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-10%] before:ease-linear before:w-[77%] before:left-[6px]"} text-[15px] font-semibold font-[Poppins] text-[#dbd9d9] tracking-normal cursor-pointer`}>Hosting</p>
-                <p onClick={() => tabs('tab2')} className={`${data === "tab2" && " !text-[#b00000] relative before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-10%] before:ease-linear before:w-[77%] before:left-[6px]"} text-[15px] font-semibold font-[Poppins] text-[#dbd9d9] tracking-normal cursor-pointer`}>Domain</p>
-                <p onClick={() => tabs('tab3')} className={`${data === "tab3" && " !text-[#b00000] relative before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-10%] before:ease-linear before:w-[77%] before:left-[6px]"} text-[15px] font-semibold font-[Poppins] text-[#dbd9d9] tracking-normal cursor-pointer`}>SEO </p>
-                <p onClick={() => tabs('tab4')} className={`${data === "tab4" && " !text-[#b00000] relative before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-10%] before:ease-linear before:w-[77%] before:left-[6px]"} text-[15px] font-semibold font-[Poppins] text-[#dbd9d9] tracking-normal cursor-pointer`}>Email</p>
+            <div data-aos="fade-right">
+              <div className='flex gap-4 relative after:absolute after:w-full after:left-0 after:h-[1px] max-w-[242px] after:bottom-[-6px] after:bg-[#C4C4C4] '>
+                <p onClick={() => tabs('tab1')} className={`${data === "tab1" && " !text-[#b00000] z-10 relative before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-10%] before:ease-linear before:w-[77%] before:left-[6px]"} text-[15px] font-semibold font-[Poppins] text-[#dbd9d9] tracking-normal cursor-pointer`}>Hosting</p>
+                <p onClick={() => tabs('tab2')} className={`${data === "tab2" && " !text-[#b00000] z-10 relative before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-10%] before:ease-linear before:w-[77%] before:left-[6px]"} text-[15px] font-semibold font-[Poppins] text-[#dbd9d9] tracking-normal cursor-pointer`}>Domain</p>
+                <p onClick={() => tabs('tab3')} className={`${data === "tab3" && " !text-[#b00000] z-10 relative before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-10%] before:ease-linear before:w-[77%] before:left-[6px]"} text-[15px] font-semibold font-[Poppins] text-[#dbd9d9] tracking-normal cursor-pointer`}>SEO </p>
+                <p onClick={() => tabs('tab4')} className={`${data === "tab4" && " !text-[#b00000] z-10 relative before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:bottom-[-10%] before:ease-linear before:w-[77%] before:left-[6px]"} text-[15px] font-semibold font-[Poppins] text-[#dbd9d9] tracking-normal cursor-pointer`}>Email</p>
               </div>
               {data === "tab1" &&<div className=' pt-2 sm:pt-7'>
                 <h2 className='text-[29px] sm:text-[64px] font-bold font-[Poppins] leading-[35px] sm:leading-[77px] text-[#2E2E2E] max-w-[608px]'>Premium Web Hosting for Your Website</h2>
@@ -53,8 +52,8 @@ const Hero = () => {
             </div>
             <div className=' relative' data-aos="fade-left">
               <img src={main} alt="main" />
-            <div className=' absolute bottom-[10%] right-[5%]'><Imgelement/></div>
-            <div className=' absolute top-[13%] right-[5%]'><Imgelement2/></div>
+            <div className=' absolute bottom-[10%] right-[-4%] sm:right-[12%] lg:right-[5%]'><Imgelement/></div>
+            <div className=' absolute top-[13%] right-[-4%] sm:right-[14%] lg:right-[5%]'><Imgelement2/></div>
             <div className=' absolute bottom-[35%] left-[-4%]'><Imgelement3/></div>
             </div>
         </div>
