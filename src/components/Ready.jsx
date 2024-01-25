@@ -103,7 +103,7 @@ const Ready = () => {
                   {boxitem.Price}
                 </p>
                 <p className=" text-sm font-light leading-[14px] font-[Poppins] text-black pt-2">
-                { open ? "per year":"per mounth"}
+                { open ? "per year":"per month"}
                 </p>
                 <button className=" text-sm font-semibold leading-8 font-[Poppins] text-black border-[2px] border-black  rounded-xl py-[9px] px-[60px] mt-8  hover:border-transparent hover:border-[2px] p-3 relative  after:-z-20 after:absolute after:h-1 after:w-1  after:bg-[#b00000]  hover:text-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
                   Choose this Plan
@@ -164,7 +164,7 @@ const Ready = () => {
                   {boxitem.Rate}
                 </p>
                 <p className=" text-sm font-light leading-[14px] font-[Poppins] text-black pt-2">
-                  { open ? "per year":"per mounth"}
+                  { open ? "per year":"per month"}
                 </p>
                 <button className=" text-sm font-semibold leading-8 font-[Poppins] text-black border-[2px] border-black  rounded-xl py-[9px] px-[60px] mt-8  hover:border-transparent hover:border-[2px] p-3 relative  after:-z-20 after:absolute after:h-1 after:w-1  after:bg-[#b00000]  hover:text-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
                   Choose this Plan
