@@ -50,11 +50,11 @@ const Hero = () => {
                 </div>
                 </div>}
             </div>
-            <div className=' relative' data-aos="fade-left">
+            <div className=' relative flex justify-center lg:justify-start' data-aos="fade-left">
               <img src={main} alt="main" />
-            <div className=' absolute bottom-[10%] right-[-4%] sm:right-[12%] lg:right-[5%]'><Imgelement/></div>
-            <div className=' absolute top-[13%] right-[-4%] sm:right-[14%] lg:right-[5%]'><Imgelement2/></div>
-            <div className=' absolute bottom-[35%] left-[-4%]'><Imgelement3/></div>
+            <div className=' absolute bottom-[10%] right-[-4%] sm:right-[4%] lg:right-[-2%] xl:right-[5%]'><Imgelement/></div>
+            <div className=' absolute top-[13%] right-[-4%] sm:right-[6%] lg:right-[-2%] xl:right-[5%]'><Imgelement2/></div>
+            <div className=' absolute bottom-[35%] left-[-4%] sm:left-[4%] lg:left-[-4%] xl:left-[-4%]'><Imgelement3/></div>
             </div>
         </div>
 
