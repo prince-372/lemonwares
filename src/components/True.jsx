@@ -41,12 +41,12 @@ const True = () => {
                     </div>
                     <div data-aos="fade-left" className=' px-3 pt-[25px]'>
                         <div className='grid grid-cols-2 xl:grid-cols-3 items-center justify-center gap-11'>
-                            <div className='flex justify-center lg:justify-end'><img src={img1} alt="img" /></div>
-                            <div className='flex justify-center lg:justify-end'><img src={img2} alt="img" /></div>
-                            <div className='flex justify-center lg:justify-end'><img src={img3} alt="img" /></div>
-                            <div className='flex justify-center lg:justify-end'><img src={img4} alt="img"/></div>
-                            <div className='flex justify-center lg:justify-end'><img src={img5} alt="img" /></div>
-                            <div className='flex justify-center lg:justify-end'><img src={img6} alt="img" /></div>
+                            <div className='flex justify-center lg:justify-end hover:scale-[1.1] duration-300'><img src={img1} alt="img" /></div>
+                            <div className='flex justify-center lg:justify-end hover:scale-[1.1] duration-300'><img src={img2} alt="img" /></div>
+                            <div className='flex justify-center lg:justify-end hover:scale-[1.1] duration-300'><img src={img3} alt="img" /></div>
+                            <div className='flex justify-center lg:justify-end hover:scale-[1.1] duration-300'><img src={img4} alt="img"/></div>
+                            <div className='flex justify-center lg:justify-end hover:scale-[1.1] duration-300'><img src={img5} alt="img" /></div>
+                            <div className='flex justify-center lg:justify-end hover:scale-[1.1] duration-300'><img src={img6} alt="img" /></div>
                         </div>
                     </div>
                 </div>

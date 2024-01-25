@@ -62,22 +62,22 @@ const Story = () => {
                     <p className='text-[#18191F] text-lg font-[Inter] font-normal text-center lg:text-start leading-[32px] max-w-[573px] mt-3'>Connect LemonWares with your favourite tools that you use daily and keep things on track.</p>
                 </div>
                 <div data-aos="fade-left" className='grid grid-cols-2 xl:grid-cols-3 items-center justify-center'>
-                    <div className='flex justify-center lg:justify-end'>
+                    <div className='flex justify-center lg:justify-end hover:scale-[1.1] duration-300'>
                         <img src={Image1} alt='Images ' />
                     </div>
-                    <div className='flex justify-center lg:justify-end'>
+                    <div className='flex justify-center lg:justify-end hover:scale-[1.1] duration-300'>
                         <img src={Image2} alt='Images ' />
                     </div>
-                    <div className='flex justify-center lg:justify-end'>
+                    <div className='flex justify-center lg:justify-end hover:scale-[1.1] duration-300'>
                         <img src={Image3} alt='Images ' />
                     </div>
-                    <div className='flex justify-center lg:justify-end'>
+                    <div className='flex justify-center lg:justify-end hover:scale-[1.1] duration-300'>
                         <img src={Image4} alt='Images ' />
                     </div>
-                    <div className='flex justify-center lg:justify-end'>
+                    <div className='flex justify-center lg:justify-end hover:scale-[1.1] duration-300'>
                         <img src={Image5} alt='Images ' />
                     </div>
-                    <div className='flex justify-center lg:justify-end'>
+                    <div className='flex justify-center lg:justify-end hover:scale-[1.1] duration-300'>
                         <img src={Image6} alt='Images ' />
                     </div>
                 </div>
